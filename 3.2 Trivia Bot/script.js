@@ -16,8 +16,7 @@
 //     You should log the codingFact to the console a third time.
 //     You should log "It was fun sharing these facts with you. Goodbye! - (botName) from (botLocation)." to the console as a farewell statement from the bot
 
-
-console.log("Hello! I'm your coding fun fact guide!")
+console.log("Hello! I'm your coding fun fact guide!");
 let botName = "WallE";
 let botLocation = "Mars";
 let favoriteLanguage = "Rust";
@@ -25,16 +24,53 @@ let favoriteLanguage = "Rust";
 let botIntro = "My name is " + botName + " and I live on " + botLocation + ".";
 console.log(botIntro);
 
-let favorite = "My favorite programming language is " + favoriteLanguage  +".";
-console.log(favorite)
+let favorite = "My favorite programming language is " + favoriteLanguage + ".";
+console.log(favorite);
 
+let codingFact = "I hate rain - " + favoriteLanguage + ".";
+console.log(codingFact);
 
-let codingFact = "I hate rain - " + favoriteLanguage +"."
-console.log(codingFact)
+codingFact = "Eat Code Sleep Repeat" + favoriteLanguage;
+console.log(codingFact);
+codingFact = "Please use DRY - " + favoriteLanguage + ".";
+console.log(codingFact);
+let fareWell =
+  "It was fun sharing these facts with you. Goodbye! - " +
+  botName +
+  " from " +
+  botLocation +
+  ".";
+console.log(fareWell);
 
-codingFact = "Eat Code Sleep Repeat" + favoriteLanguage
-console.log(codingFact)
-codingFact = "Please use DRY - " + favoriteLanguage +"."
-console.log(codingFact)
-let fareWell = "It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".";
-console.log(fareWell) 
+let adjective;
+let noun;
+let verb;
+let place;
+let adjective2;
+let noun2;
+
+adjective = "curious";
+noun = "cat";
+verb = "chased";
+place = "library";
+adjective2 = "dusty";
+noun2 = "milk";
+
+let firstStory;
+
+firstStory =
+  "Once upon a time, there was a " +
+  adjective +
+  noun +
+  " who loved to eat + " +
+  noun2 +
+  ". The" +
+  noun +
+  "lived in a" +
+  "library " +
+  " and had " +
+  adjective2 +
+  "nostrils that blew fire when it was " +
+  verb +
+  ".";
+console.log("First story : ", firstStory);
